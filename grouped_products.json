@@ -1,5 +1,5 @@
 {
-  "men\u0027s clothing": [
+  "men's clothing": [
     {
       "id": 4,
       "title": "Mens Casual Slim Fit",
@@ -39,7 +39,7 @@
     },
     {
       "id": 5,
-      "title": "John Hardy Women\u0027s Legends Naga Gold \u0026 Silver Dragon Station Chain Bracelet",
+      "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
       "price": 695
     }
   ],
@@ -71,19 +71,19 @@
     },
     {
       "id": 14,
-      "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) \u2013 Super Ultrawide Screen QLED ",
+      "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
       "price": 999.99
     }
   ],
-  "women\u0027s clothing": [
+  "women's clothing": [
     {
       "id": 19,
-      "title": "Opna Women\u0027s Short Sleeve Moisture",
+      "title": "Opna Women's Short Sleeve Moisture",
       "price": 7.95
     },
     {
       "id": 18,
-      "title": "MBJ Women\u0027s Solid Short Sleeve Boat Neck V ",
+      "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
       "price": 9.85
     },
     {
@@ -93,7 +93,7 @@
     },
     {
       "id": 16,
-      "title": "Lock and Love Women\u0027s Removable Hooded Faux Leather Moto Biker Jacket",
+      "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
       "price": 29.95
     },
     {
@@ -103,7 +103,7 @@
     },
     {
       "id": 15,
-      "title": "BIYLACLESEN Women\u0027s 3-in-1 Snowboard Jacket Winter Coats",
+      "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
       "price": 56.99
     }
   ]

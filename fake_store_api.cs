@@ -61,7 +61,12 @@ class Program
 
     static void WriteToJsonFile(Dictionary<string, List<ProductDto>> data, string filePath)
     {
-        var options = new JsonSerializerOptions { WriteIndented = true };
+        // Set options to write indented JSON and prevent escaping characters like apostrophes
+        var options = new JsonSerializerOptions 
+        { 
+            WriteIndented = true,
+            Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping 
+        };
         var json = JsonSerializer.Serialize(data, options);
         File.WriteAllText(filePath, json);
     }
