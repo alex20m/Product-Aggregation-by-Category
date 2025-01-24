@@ -1,0 +1,15 @@
+/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/obj/Debug/net9.0/ProductAggregation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/obj/Debug/net9.0/ProductAggregation.AssemblyInfoInputs.cache
+/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/obj/Debug/net9.0/ProductAggregation.AssemblyInfo.cs
+/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/obj/Debug/net9.0/ProductAggregation.csproj.CoreCompileInputs.cache
+/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/obj/Debug/net9.0/ProductAggregation.sourcelink.json
+/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/bin/Debug/net9.0/ProductAggregation
+/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/bin/Debug/net9.0/ProductAggregation.deps.json
+/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/bin/Debug/net9.0/ProductAggregation.runtimeconfig.json
+/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/bin/Debug/net9.0/ProductAggregation.dll
+/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/bin/Debug/net9.0/ProductAggregation.pdb
+/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/obj/Debug/net9.0/ProductAggregation.dll
+/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/obj/Debug/net9.0/refint/ProductAggregation.dll
+/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/obj/Debug/net9.0/ProductAggregation.pdb
+/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/obj/Debug/net9.0/ProductAggregation.genruntimeconfig.cache
+/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/obj/Debug/net9.0/ref/ProductAggregation.dll

@@ -18,13 +18,15 @@ class Program
             Console.WriteLine("Fetching product data...");
             var products = await FetchProducts(apiUrl);
 
+            Console.WriteLine(products);
+
             Console.WriteLine("Grouping products by category...");
             var groupedProducts = GroupProductsByCategory(products);
 
             Console.WriteLine("Writing grouped data to JSON file...");
-            WriteToJsonFile(groupedProducts, outputFilePath);
+            WriteToJsonFile(groupedProducts, outputFile);
 
-            Console.WriteLine($"Data successfully saved to {outputFilePath}");
+            Console.WriteLine($"Data successfully saved to {outputFile}");
         }
         catch (Exception ex)
         {
@@ -37,16 +39,46 @@ class Program
     {
         using var httpClient = new HttpClient();
         var response = await httpClient.GetStringAsync(apiUrl);
+
+        Console.WriteLine("Raw API response:");
+        Console.WriteLine(response);
+
         return JsonSerializer.Deserialize<List<Product>>(response);
     }
-    
+
+    static Dictionary<string, List<ProductDto>> GroupProductsByCategory(List<Product> products)
+    {
+        return products
+            .GroupBy(p => p.category)
+            .ToDictionary(
+                g => g.Key,
+                g => g
+                    .OrderBy(p => p.price) // Sort by price
+                    .Select(p => new ProductDto { id = p.id, title = p.title, price = p.price })
+                    .ToList()
+            );
+    }
+
+    static void WriteToJsonFile(Dictionary<string, List<ProductDto>> data, string filePath)
+    {
+        var options = new JsonSerializerOptions { WriteIndented = true };
+        var json = JsonSerializer.Serialize(data, options);
+        File.WriteAllText(filePath, json);
+    }
 
 }
 
 class Product
 {
-    public int Id { get; set; }
-    public string Title { get; set; }
-    public decimal Price { get; set; }
-    public string Category { get; set; }
+    public required int id { get; set; }
+    public required string title { get; set; }
+    public required decimal price { get; set; }
+    public required string category { get; set; }
+}
+
+class ProductDto
+{
+    public required int id { get; set; }
+    public required string title { get; set; }
+    public required decimal price { get; set; }
 }

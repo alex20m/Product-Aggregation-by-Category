@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/ProductAggregation/ProductAggregation.csproj",
+      "projectUniqueName": "/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/ProductAggregation.csproj",
       "projectName": "ProductAggregation",
-      "projectPath": "/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/ProductAggregation/ProductAggregation.csproj",
+      "projectPath": "/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/ProductAggregation.csproj",
       "packagesPath": "/Users/alexm/.nuget/packages/",
-      "outputPath": "/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/ProductAggregation/obj/",
+      "outputPath": "/Users/alexm/Library/CloudStorage/OneDrive-Privat/Jobb/Ansökning/Interviews/Aalto/Coding_Task/Product-Aggregation-by-Category/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alexm/.nuget/NuGet/NuGet.Config"
