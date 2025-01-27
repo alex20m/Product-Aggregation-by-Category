@@ -18,8 +18,6 @@ class Program
             Console.WriteLine("Fetching product data...");
             var products = await FetchProducts(apiUrl);
 
-            Console.WriteLine(products);
-
             Console.WriteLine("Grouping products by category...");
             var groupedProducts = GroupProductsByCategory(products);
 
@@ -39,10 +37,6 @@ class Program
     {
         using var httpClient = new HttpClient();
         var response = await httpClient.GetStringAsync(apiUrl);
-
-        Console.WriteLine("Raw API response:");
-        Console.WriteLine(response);
-
         return JsonSerializer.Deserialize<List<Product>>(response);
     }
 
